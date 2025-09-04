@@ -1,4 +1,7 @@
 // main.ts - Main plugin file
+import { ConnectionsModal, StructureNoteModal, WritingTopicsModal, 
+         DailyReviewModal, OutlineModal, ProcessingModal, 
+         QuickNoteModal } from './additional-modals';
 import { App, Plugin, PluginSettingTab, Setting, Notice, TFile, Modal, SuggestModal } from 'obsidian';
 
 interface ZettelkastenSettings {
